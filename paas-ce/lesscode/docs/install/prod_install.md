@@ -15,8 +15,16 @@
 cd /data/
 git clone https://github.com/{YOUR NAME}/bk-PaaS.git
 
-# 2. 进入 `/data/bk-PaaS/paas-ce/lesscode` 目录
+# 2. 进入 `/data/bk-PaaS/paas-ce/lesscode` 目录， 创建 logs 目录
 cd /data/bk-PaaS/paas-ce/lesscode
+mkdir logs
+touch access.log
+touch application.log
+touch err.log
+touch error.log
+touch forever.log
+touch out.log
+
 
 # 3. 运行 `npm install .` 安装前端依赖
 npm install .
