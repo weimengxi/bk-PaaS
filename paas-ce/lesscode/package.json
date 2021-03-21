@@ -179,7 +179,7 @@
     "shelljs": "~0.8.3",
     "shx": "~0.3.2",
     "swig": "~1.4.2",
-    "terser-webpack-plugin": "~1.2.3",
+    "terser-webpack-plugin": "^1.2.3",
     "transliteration": "~2.1.8",
     "typeorm": "^0.2.25",
     "url-loader": "~2.2.0",
